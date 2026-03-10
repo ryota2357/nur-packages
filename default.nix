@@ -17,5 +17,6 @@ in
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
+  mical = pkgs.callPackage ./pkgs/mical { source = sources.mical; };
   vm_stat2 = pkgs.callPackage ./pkgs/vm_stat2 { source = sources.vm_stat2; };
 }

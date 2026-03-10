@@ -6,6 +6,17 @@
   dockerTools,
 }:
 {
+  mical = {
+    pname = "mical";
+    version = "v0.0.2";
+    src = fetchFromGitHub {
+      owner = "mical-lang";
+      repo = "mical";
+      rev = "v0.0.2";
+      fetchSubmodules = false;
+      sha256 = "sha256-16NSGJTBbKEhWymfL2UaBfkRZzJ7yn+XT45lSHAhw88=";
+    };
+  };
   vm_stat2 = {
     pname = "vm_stat2";
     version = "83349699f0773be1d18daed358f7d50b5fefccda";
