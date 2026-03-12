@@ -5,9 +5,7 @@
 }:
 
 rustPlatform.buildRustPackage (finalAttrs: {
-  pname = "mical";
-  inherit (source) src;
-  version = builtins.replaceStrings [ "v" ] [ "" ] source.version;
+  inherit (source) pname src version;
 
   cargoLock = {
     lockFile = "${finalAttrs.src}/Cargo.lock";
