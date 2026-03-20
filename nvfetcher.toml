@@ -1,6 +1,7 @@
 [mical]
 src.github_tag = "mical-lang/mical"
 fetch.github = "mical-lang/mical"
+cargo_lock = ["Cargo.lock"]
 
 [pleckjp-font]
 src.github_tag = "ryota2357/PleckJP"

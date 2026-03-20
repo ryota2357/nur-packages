@@ -1,6 +1,11 @@
 {
     "mical": {
-        "cargoLock": null,
+        "cargoLock": {
+            "Cargo.lock": [
+                "sha256-16NSGJTBbKEhWymfL2UaBfkRZzJ7yn+XT45lSHAhw88=/Cargo.lock",
+                {}
+            ]
+        },
         "date": null,
         "extract": null,
         "name": "mical",

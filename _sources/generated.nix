@@ -16,6 +16,12 @@
       fetchSubmodules = false;
       sha256 = "sha256-16NSGJTBbKEhWymfL2UaBfkRZzJ7yn+XT45lSHAhw88=";
     };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./. + "/sha256-16NSGJTBbKEhWymfL2UaBfkRZzJ7yn+XT45lSHAhw88=/Cargo.lock";
+      outputHashes = {
+        
+      };
+    };
   };
   pleckjp-font = {
     pname = "pleckjp-font";
