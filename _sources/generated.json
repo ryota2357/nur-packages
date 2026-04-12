@@ -1,4 +1,25 @@
 {
+    "macos-ime": {
+        "cargoLock": null,
+        "date": "2026-04-12",
+        "extract": null,
+        "name": "macos-ime",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "ryota2357",
+            "repo": "macos-ime",
+            "rev": "60e87f705581f19b04bd2ed539f93f2ee727fcc4",
+            "sha256": "sha256-MmnSAHiZtFU9wsCz6Eu6CpIomHhtbv2W5A3QwsJN+0o=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "60e87f705581f19b04bd2ed539f93f2ee727fcc4"
+    },
     "mical": {
         "cargoLock": {
             "Cargo.lock": [

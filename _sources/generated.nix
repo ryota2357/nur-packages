@@ -6,6 +6,18 @@
   dockerTools,
 }:
 {
+  macos-ime = {
+    pname = "macos-ime";
+    version = "60e87f705581f19b04bd2ed539f93f2ee727fcc4";
+    src = fetchFromGitHub {
+      owner = "ryota2357";
+      repo = "macos-ime";
+      rev = "60e87f705581f19b04bd2ed539f93f2ee727fcc4";
+      fetchSubmodules = false;
+      sha256 = "sha256-MmnSAHiZtFU9wsCz6Eu6CpIomHhtbv2W5A3QwsJN+0o=";
+    };
+    date = "2026-04-12";
+  };
   mical = {
     pname = "mical";
     version = "v0.0.2";
