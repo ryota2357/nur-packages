@@ -45,14 +45,14 @@
   };
   vm_stat2 = {
     pname = "vm_stat2";
-    version = "c16f3891269735d882330113cd0a43254706e778";
+    version = "a72c0e027931312d732e279c95ebc6025399db2d";
     src = fetchFromGitHub {
       owner = "ryota2357";
       repo = "vm_stat2";
-      rev = "c16f3891269735d882330113cd0a43254706e778";
+      rev = "a72c0e027931312d732e279c95ebc6025399db2d";
       fetchSubmodules = false;
-      sha256 = "sha256-3qYLoThayhROhOdATyJw7UM+9wfU4kXS+Fm4rTyexIg=";
+      sha256 = "sha256-JKgLGOBYJkf6U22FoG+5peR4Wo68Py6u3RWwqqa765o=";
     };
-    date = "2026-04-12";
+    date = "2026-04-13";
   };
 }
