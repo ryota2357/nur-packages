@@ -8,15 +8,15 @@
 {
   macos-ime = {
     pname = "macos-ime";
-    version = "748fd3f9e050729e7fa916ffed63bcdeb440acf1";
+    version = "f821b1b0b5405ed07f437d912bbf06f1acd67236";
     src = fetchFromGitHub {
       owner = "ryota2357";
       repo = "macos-ime";
-      rev = "748fd3f9e050729e7fa916ffed63bcdeb440acf1";
+      rev = "f821b1b0b5405ed07f437d912bbf06f1acd67236";
       fetchSubmodules = false;
-      sha256 = "sha256-Pow98INUfKgLNxYARjwKPgBRYW1/i50B9hiyqP8bAh0=";
+      sha256 = "sha256-dJ0wurfz4yxM8PbtGch5VT6tXfHMiI1N6/qXne3yY5c=";
     };
-    date = "2026-04-13";
+    date = "2026-04-14";
   };
   mical = {
     pname = "mical";
