@@ -63,7 +63,7 @@
     },
     "vm_stat2": {
         "cargoLock": null,
-        "date": "2026-04-14",
+        "date": "2026-06-07",
         "extract": null,
         "name": "vm_stat2",
         "passthru": null,
@@ -75,11 +75,11 @@
             "name": null,
             "owner": "ryota2357",
             "repo": "vm_stat2",
-            "rev": "1ad0d07ae4a64c7788fab580eaf247cbe8d01b3b",
-            "sha256": "sha256-dBD8DzcwJWioiJaOxnrhFd8dQdozjKPG12v7QO4LcF8=",
+            "rev": "27b8d46cabcf749896594ae03339d602f6d13d7f",
+            "sha256": "sha256-R44s641ahevrNnMuiYd5Bg/+VJjQVXqtu1l3T9XDiLk=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "1ad0d07ae4a64c7788fab580eaf247cbe8d01b3b"
+        "version": "27b8d46cabcf749896594ae03339d602f6d13d7f"
     }
 }
