@@ -37,10 +37,10 @@
   };
   pleckjp-font = {
     pname = "pleckjp-font";
-    version = "v2.1.2";
+    version = "v2.2.0";
     src = fetchurl {
-      url = "https://github.com/ryota2357/PleckJP/releases/download/v2.1.2/PleckJP_v2.1.2.zip";
-      sha256 = "sha256-h7iW/arXNQZuW+9OpKdAWF9FtjSyi9/DLIuyuE1ckCY=";
+      url = "https://github.com/ryota2357/PleckJP/releases/download/v2.2.0/PleckJP_v2.2.0.zip";
+      sha256 = "sha256-WjaoZKuILopBRlMQhcTDvafHLY4dYf2dVz1wysTSvms=";
     };
   };
   vm_stat2 = {
